@@ -12,7 +12,7 @@ def d(count):
     :return:
     '''
     for num in range(int(count) + 1):
-        word = "ABCDEFGHIJKLMNOPQRSTUVWXYZzbcdefghijklmnopqrstuvwxyz`1234567890-=~!@#$%^&*()_+,./<>?[]\{}|;':\""  # 字典生成从这里去字符
+        word = "ABCDEFGHIJKLMNOPQRSTUVWXYZzbcdefghijklmnopqrstuvwxyz`1234567890-=~!@#$%^&*()_+,./<>?[]\{}|;':\""  # 字典生成从这里取字符
         a = itertools.product(word, repeat=num)
         # dic = open('dict.txt', 'a')
         for i in a:
